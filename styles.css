@@ -4,3 +4,6 @@ button {
   border-color:black;
 }
 
+audio { 
+   display:none;
+}
