@@ -1,8 +1,11 @@
 h1 {
   color: fuchsia;
 }
-button {
-  flex:flexbox;
-  flex:center;
-  flex-column:80%;
+#buttons {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
 }
+
+.button{
+  
