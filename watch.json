@@ -11,9 +11,6 @@
       "^dist/"
     ],
     "include": [
-      "\\.js$",
-      "\\.coffee$",
-      "\\.json"
     ]
   },
   "throttle": 10000

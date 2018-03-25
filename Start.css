@@ -1,4 +1,4 @@
-body{
+#container{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -17,11 +17,13 @@ body{
     
 }
 
-#next{
+#start2{
 
   background: red;
   display: flex;
-  display
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  
 
 }
 
