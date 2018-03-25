@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+      
         <title>Page Title</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Your CSS Linked Below-->
         <link rel="stylesheet" href="/Story.css">
-        <!-- jQuery Linked Below-->
+        <link rel="stylesheet" href="/styles.css">
+
+      <!-- jQuery Linked Below-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Your Javascript Linked Below-->
         <script src="/script.js" defer></script>
+        <script src="/music.js"></script>
     </head>
-    <body>
+    <body background="http://videogamecritic.com/images/3do/samurai_shodown.jpg">
+      
+       <div id="text-area">
+          <p>
+            You walk around and bandits approach you
+          </p>
+          <div id="button-area">
 
+              <div id="choice1">
+                <a href ="/Scene_Fight.html">
+                  <button>
+                    Fight Them!
+                  </button>
+                </a>
+              </div>
+
+               <div id="choice2">
+                  <a href ="/Choice_Beg.html">
+                    <button>
+                      Beg for mercy.
+                    </button>
+                 </a>
+              </div>
+            </div>
+
+      </div>
+     <audio src="https://cdn.glitch.com/dc7e8dec-7edb-4352-af9f-ebbf8b8243ee%2FEpic%20Suspenseful%20Action%20Music%20Instrumental%202%20Dramatic%20Intense%20Heroic%20Movie%20%20Film%20Soundtracks.mp3?1522012815780" loop="true" autoplay="true" controls>
+      </audio>   
     </body>
 </html>
