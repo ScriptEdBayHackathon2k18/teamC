@@ -44,3 +44,4 @@ function update()
     }
 }
 setInterval(update,1000);
+//We copy-pasted this code from https://stackoverflow.com/questions/15612120/how-do-i-make-an-audio-file-play-continuously-on-all-pages
