@@ -20,14 +20,24 @@ audio{
 }
 
 #text-area {
-
-    background: red;
+    opacity:0.5;
+    background: blue;
+    color:white;
     height:35%;
-
+    position:absolute;
+    bottom:0;
 }
 
 p {
     font-family:'Abril Fatface',cursive;
+}
+
+body,html{
+  height:100%;
+  margin:0;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;  
 }
 
 
