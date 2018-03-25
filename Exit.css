@@ -26,7 +26,9 @@ h1 {
 
 .textVerify{
   margin:auto;
-  background-color:white;
+  text-align:center;
+  color:white;
+  font-size:50px;
 }
 
 p{

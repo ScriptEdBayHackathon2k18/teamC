@@ -13,21 +13,14 @@ audio{
     flex-direction: column;
 }
 
-#pic-area {
-
-    background-color: aqua;
-    height:60%;    
-}
-
 #text-area {
     opacity:1;
     color:white;
-    height:40%;
+    height:35%;
     position:absolute;
     bottom:0;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 5%;
   
 }
 
@@ -48,11 +41,23 @@ a {
   color:white;
 }
 
-#next{
-
-  text-align: right;
+#button-area{
+  display:flex;
+  flex-direction:row;
 }
 
 
+button {
+  height:100%;
+  width:100%;
+}
+
+#choiceCity {
+  margin:auto;
+}
+
+#choiceRoam {
+  margin:auto;
+}
 
 
