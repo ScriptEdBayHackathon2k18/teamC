@@ -1,32 +1,24 @@
-.outer-flex {
+body{
     position: absolute;
     top: 0;
     bottom: 0;
     left:0;
     right:0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.flex {
+#start {
     display: flex;
     flex:1;
     flex-direction: column;
-    background-color: #64b92a;
+    background-color: aqua;
     height: 100%;
 }
 
-.fixed {
-    height: 20px;
-    background-color: #ecf0f1;
-}
-.top-box {
-    height: 30%;
+#text {
+    height: 35%;
     background-color: red;
-}
-
-.bottom-box {
-    flex: 1;
 }
 
 
