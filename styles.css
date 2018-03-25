@@ -15,4 +15,17 @@ h1 {
 
 img{
   display:flex;
-  
+}
+
+body,html{
+  height:100%;
+  margin:0;
+}
+
+.background-image{
+  background-image:url("https://vignette.wikia.nocookie.net/shingekinokyojin/images/0/06/Underground_City_%28Anime%29.png/revision/latest?cb=20170617171724");
+  height:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
