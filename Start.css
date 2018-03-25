@@ -20,16 +20,19 @@ audio{
 }
 
 #text-area {
-    opacity:0.5;
-    background: blue;
+    opacity:1;
     color:white;
     height:35%;
     position:absolute;
     bottom:0;
+    padding-left: 20%;
+    padding-right: 20%;
+  
 }
 
 p {
     font-family:'Abril Fatface',cursive;
+    font-size: 15px;
 }
 
 body,html{
@@ -40,9 +43,15 @@ body,html{
   background-size:cover;  
 }
 
+a {
+  color:white;
+}
 
+#next{
 
+  text-align: right;
 
+}
 
 
 
